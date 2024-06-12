@@ -6,7 +6,7 @@ services:
     container_name: app_new_1
     build: .
     ports:
-      -8089:80
+      - 8089:80
 #     networks:
 #       - net
 
