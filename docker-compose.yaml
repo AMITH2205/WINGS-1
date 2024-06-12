@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  web-app:
+    image: app-new
+    container_name: app_new_1
+    ports:
+      -8089:80
+    networks:
+      - net
+
+networks:
+  -net
