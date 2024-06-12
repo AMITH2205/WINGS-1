@@ -7,8 +7,8 @@ services:
     build: .
     ports:
       -8089:80
-    networks:
-      - net
+#     networks:
+#       - net
 
-networks:
-  -net
+# networks:
+#   net
